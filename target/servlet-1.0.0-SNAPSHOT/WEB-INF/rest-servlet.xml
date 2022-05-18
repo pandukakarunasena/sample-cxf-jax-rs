@@ -32,5 +32,4 @@
             <ref bean='jsonProvider' />
         </jaxrs:providers>
     </jaxrs:server>
-
 </beans>
