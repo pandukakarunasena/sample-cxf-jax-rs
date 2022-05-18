@@ -23,11 +23,13 @@
       <groupId>org.springframework</groupId>
       <artifactId>spring-context</artifactId>
       <version>${springmvc}</version>
+      <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-web</artifactId>
       <version>${springmvc}</version>
+      <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
@@ -39,11 +41,13 @@
       <groupId>org.apache.cxf</groupId>
       <artifactId>cxf-rt-frontend-jaxrs</artifactId>
       <version>${cxf.version}</version>
+      <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>org.apache.cxf</groupId>
       <artifactId>cxf-rt-transports-http</artifactId>
       <version>${cxf.version}</version>
+      <scope>provided</scope>
     </dependency>
 <!--    <dependency>-->
 <!--      <groupId>commons-httpclient</groupId>-->
@@ -54,11 +58,13 @@
       <groupId>javax.ws.rs</groupId>
       <artifactId>javax.ws.rs-api</artifactId>
       <version>${jax.ws.rs}</version>
+      <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>org.codehaus.jackson</groupId>
       <artifactId>jackson-jaxrs</artifactId>
       <version>${jackson.version}</version>
+      <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
